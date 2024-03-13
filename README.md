@@ -89,3 +89,32 @@ memperbaikinya. Tentunya akan lebih meyakinkan apabila kita menuliskan test case
 hanya perlu fokus pada optimasinya saja.
 
 
+## Screenshots Demo
+### Performance Test
+1. Performance Test - getAllStudentsWithCourses 
+   ![Performance Test - getAllStudentsWithCourses](./assets/images/jmeter_test_all_student.png)
+2. Performance Test - joinStudentNames
+   - GUI <br>
+      ![Performance Test - joinStudentNames - GUI](./assets/images/jmeter_test_all_student_name.png)
+   - CLI <br>
+     ![Performance Test - joinStudentNames - CLI](./assets/images/jmeter_test_all_student_name_cli.png)
+3. Performance Test - findStudentWithHighestGpa
+   - GUI <br>
+     ![Performance Test - findStudentWithHighestGpa - GUI](./assets/images/jmeter_test_highest_gpa.png)
+   - CLI <br>
+     ![Performance Test - findStudentWithHighestGpa - CLI](./assets/images/jmeter_test_highest_gpa_cli.png)
+4. Performance Test - getAllStudentsWithCourses (OPTIMIZED)
+   ![Performance Test - getAllStudentsWithCourses (OPTIMIZED)](./assets/images/jmeter_compare_all_student.png)
+5. Performance Test - joinStudentNames (OPTIMIZED)
+   ![Performance Test - joinStudentNames (OPTIMIZED)](./assets/images/jmeter_compare_all_student_name.png)
+6. Performance Test - findStudentWithHighestGpa (OPTIMIZED)
+   ![Performance Test - findStudentWithHighestGpa (OPTIMIZED)](./assets/images/jmeter_compare_highest_gpa.png)
+
+
+### Profiling (Before vs After Comparison)
+1. Profiling - getAllStudentsWithCourses
+   ![Profiling - getAllStudentsWithCourses](./assets/images/profiler_optimized_getAllStudentWithCourse.png)
+2. Profiling - joinStudentNames
+   ![Profiling - joinStudentNames](./assets/images/profiler_optimized_joinStudentName.png)
+3. Profiling - findStudentWithHighestGpa
+   ![Profiling - findStudentWithHighestGpa](./assets/images/profiler_optimized_findStudentWithHighestGpa.png)
